@@ -5,6 +5,14 @@ class Television {
 
     private int volume;
 
+    public Television() {
+    }
+
+    public Television(String brand, int volume) {
+        setBrand(brand);
+        setVolume(volume);
+    }
+
     public String getBrand() {
         return brand;
     }
