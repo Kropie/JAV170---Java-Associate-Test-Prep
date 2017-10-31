@@ -5,7 +5,7 @@ package com.kropiejohn;
  */
 public class TelevisionTest {
     public static void main(String[] args) {
-        Television television1 = new Television("Television 1 Brand", 11);
+        Television television1 = new Television("Television 1 Brand", -11);
         Television television2 = new Television();
 
         television2.setBrand("Television 2 Brand");
